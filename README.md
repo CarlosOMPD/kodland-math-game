@@ -113,8 +113,8 @@ O `KodlandProject.py` é dividido em seções, na ordem:
 
 ### 1. Baixe o projeto
 ```bash
-git clone <url-do-repositorio>
-cd aulas-pgzero
+git clone https://github.com/CarlosOMPD/kodland-math-game.git
+cd kodland-math-game
 ```
 Ou baixe pelo GitHub e abra um terminal dentro da pasta do projeto.
 
