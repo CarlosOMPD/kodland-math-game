@@ -108,7 +108,9 @@ O `KodlandProject.py` é dividido em seções, na ordem:
 ## Como rodar
 
 ### Requisitos
-- **Python 3.12 ou mais novo** (testado com Python 3.14)
+- **Python 3.14** (versão testada; precisa ser 3.12 ou mais nova)
+  - Não tem Python? Baixe em [python.org](https://www.python.org/downloads/) e, na primeira tela do instalador, marque **"Add python.exe to PATH"**.
+  - Para conferir, abra um terminal novo e rode `python --version`.
 - Git (opcional, só para clonar o repositório)
 
 ### 1. Baixe o projeto
@@ -116,7 +118,7 @@ O `KodlandProject.py` é dividido em seções, na ordem:
 git clone https://github.com/CarlosOMPD/kodland-math-game.git
 cd kodland-math-game
 ```
-Ou baixe pelo GitHub e abra um terminal dentro da pasta do projeto.
+**Sem Git?** No GitHub, clique em **Code → Download ZIP**, extraia o arquivo e abra um terminal dentro da pasta extraída (`kodland-math-game-main`).
 
 ### 2. Crie e ative um ambiente virtual
 
@@ -165,8 +167,9 @@ O jogo abre em **tela cheia**. Para sair, use o botão **EXIT** no menu ou `Ctrl
 
 ## Estrutura de pastas
 ```
-aulas-pgzero/
+kodland-math-game/
 ├── KodlandProject.py   # código do jogo
+├── README.md           # este arquivo
 ├── requirements.txt    # dependências
 ├── images/             # sprites, interface, números e operadores
 └── music/              # músicas do menu e da gameplay
